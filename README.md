@@ -1,4 +1,4 @@
-To Upload Multiple PDF's At Once for Hudu
+To Upload **Multiple PDF's** At Once for Hudu
 I have Submit an Official Hudu Feature request here > 
 
 The Current Issue with Hudu Docuementation & Uploading PDF's to the KB
@@ -24,6 +24,8 @@ Hudu Folder URL - https://yourdomain.hudu.com/kba?folder=225
 - Pay attention to the following options we MUST change.
 - Unfortunantely due to differences or Hudu version, Playwright could use some editing on your end
 - I have the script setup for SSO, but it can easily be modified for your main login page, just have it wait 15-30 seconds for you to login and then let it continue.
+
+'''javascript 
 Change Line 11 "Directory that will contain your PDF Files"
   (async () => {
   // Directory containing PDF files
@@ -56,6 +58,6 @@ For Non SSO Compatiability - CHANGE THESE LINES: (With Playwright Installed run 
     // Add a delay for manual SSO login (30 seconds)
     > console.log('Please complete the SSO login within 30 seconds...'); //just change the text or timeout if you want shorter.
     await page.waitForTimeout(30000); // 30-second delay for manual login
-
+'''
 
     
