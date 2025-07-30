@@ -1,5 +1,5 @@
 # To Upload **Multiple PDF's** At Once for Hudu
-I have Submit an Official Hudu Feature request here > 
+I have Submit an Official Hudu Feature request here > https://feedback.hudu.com/feature-requests/p/support-for-multiple-uploads-to-pdf-articles-in-the-knowledge-base
 ---
 ## The issue with Hudu Docuementation & Uploading PDF's to the KB
 - You can only upload one at a time, making it a time consuming and endless clicking process. (Its really not the worst thing in the world)
