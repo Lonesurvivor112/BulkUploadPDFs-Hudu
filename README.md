@@ -50,7 +50,7 @@ For Non SSO Compatiability - CHANGE THESE LINES: (With Playwright Installed run 
   
 	//Might Need some changing at this point 
 	// With Playwright Installed run ~~npx playwright codegen 'your hudu address'~ and identify how your page logs in. 
-  // Click the SSO link
+  //Click the SSO link
     > await page.getByRole('link', { name: 'Use Single Sign On (SSO)' }).click();
 
     // Add a delay for manual SSO login (30 seconds)
