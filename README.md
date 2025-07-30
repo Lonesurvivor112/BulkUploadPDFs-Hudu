@@ -24,17 +24,18 @@ Included in an additional feature request HERE > (Ill get it soon) The addition 
 - Unfortunantely due to differences or Hudu version, Playwright could use some editing on your end
 - I have the script setup for SSO, but it can easily be modified for your main login page, just have it wait 15-30 seconds for you to login and then let it continue.
 
-```javascript 
 Change Line 11 "Directory that will contain your PDF Files"
+```javascript 
   (async () => {
   // Directory containing PDF files
   const pdfDirectory = 'C:\\Downloads\\renamed_orders'; // Your specified directory
-
+```
 Change Line 29 "To Your correct Hudu Login Page"
+  ```javascript
   try {
     // Navigate to the login page
     await page.goto('https://yourdomain.hudu.com');
-
+```
 Change Line 42
     // Navigate to the June 2025 folder
     // Use the Global KB or Upload to a folder !Make sure you copy the FULL PATH!
