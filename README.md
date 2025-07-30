@@ -36,13 +36,13 @@ Change Line 29 "To Your correct Hudu Login Page"
     // Navigate to the login page
     await page.goto('https://yourdomain.hudu.com');
 ```
-Change Line 42
+Change Line 42 to your Global KB or Desired Folder
 ```javascript
     // Navigate to the June 2025 folder
     // Use the Global KB or Upload to a folder !Make sure you copy the FULL PATH!
     await page.goto('https://yourdomain.hudu.com/yourdesiredfolderpath');
 ```
-Change Line 72
+Change Line 72 to your Global KB or Desired Folder
 ```javascript
   // Navigate back to the June 2025 folder
       await page.goto('https://yourdomain.hudu.com/yourdesiredfolderpath');
