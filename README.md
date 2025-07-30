@@ -37,15 +37,18 @@ Change Line 29 "To Your correct Hudu Login Page"
     await page.goto('https://yourdomain.hudu.com');
 ```
 Change Line 42
+```javascript
     // Navigate to the June 2025 folder
     // Use the Global KB or Upload to a folder !Make sure you copy the FULL PATH!
     await page.goto('https://yourdomain.hudu.com/yourdesiredfolderpath');
-
+```
 Change Line 72
+```javascript
   // Navigate back to the June 2025 folder
       await page.goto('https://yourdomain.hudu.com/yourdesiredfolderpath');
-
+```
 For Non SSO Compatiability - CHANGE THESE LINES: (With Playwright Installed run ~~npx playwright codegen 'your hudu address'~ and identify how your page logs in.) 
+ ```javascript
  try {
     // Navigate to the login page
     await page.goto('https://yourdomain.hudu.com');
