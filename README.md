@@ -48,7 +48,7 @@ Change Line 72
       await page.goto('https://yourdomain.hudu.com/yourdesiredfolderpath');
 ```
 For Non SSO Compatiability - CHANGE THESE LINES: (With Playwright Installed run ~~npx playwright codegen 'your hudu address'~ and identify how your page logs in.) 
- ###LINES 27-39
+ ##LINES 27-39
  ```javascript
  try {
     // Navigate to the login page
