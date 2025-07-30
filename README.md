@@ -21,7 +21,7 @@ Included in an additional feature request HERE > (Ill get it soon) The addition 
 
 2. What You need to do for it to work
 - Pay attention to the following options we MUST change.
-- Unfortunantely due to differences or Hudu version, Playwright could use some editing on your end
+- Unfortunantely due to differences or Hudu version or just how the UI interacts, Playwright could use some editing on your end
 - I have the script setup for SSO, but it can easily be modified for your main login page, just have it wait 15-30 seconds for you to login and then let it continue.
 
 Change Line 11 "Directory that will contain your PDF Files"
